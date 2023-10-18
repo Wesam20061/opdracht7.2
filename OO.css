@@ -1,0 +1,131 @@
+/* Algemene */
+
+body {
+  background-color: #86d400;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ff0000;
+}
+
+.active {
+  background-color: #000dff;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+#logo {
+  position: absolute;
+  top: 1;
+  left: 1;
+  z-index: 999;
+  height: auto;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+p {
+  border: 2px solid black;
+  padding: 25px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+/* OverOns.html */
+#OW {
+  float: left;
+}
+
+#OM {
+  float: right;
+}
+
+
+/* index.html */
+#titlez {
+  background-color: #1f0985;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  background-repeat: no-repeat;
+  h1{
+    color: aliceblue;
+  }
+}
+
+
+/* canvas.html */
+#h1canvas{
+  background-color: #0b003b;
+  border: 1px solid black;
+  padding: 5px;
+  background-repeat: no-repeat; }
+  h1{
+    color:black;
+  }
+
+#imgcanvas { float: right;}
+#canvasbody { background-color: white;}
+
+/* !.html */
+
+
+/* !.html */
+
+
+/* !.html */
+
+
+/* !.html */
+
+
+/* !.html */
+
+
+/* !.html */
+
+
+/* !.html */
+
+
+/* !.html */
+
+
+
+@media (max-width:991px) {
+  h1 {
+      text-align: right; /* Plaats de tekst naar rechts */
+      padding-right: 20px; /* Voeg wat rechtervulling toe voor uitlijning */
+ color: #ff0000;
+
+}
+}
